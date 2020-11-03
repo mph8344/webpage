@@ -1,58 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-.heading {
-    font-family: "Verdana";
+@import url('http://fonts.googleapis.com/css?family=Corben:bold');
+@import url('http://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-}
-.center {
-    margin:auto;
-    width: 25%;
-    padding: 10px;
 }
 
-.flex-centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:#011936;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75%;
+    z-index: 1;
+    
+
 }
 
-#colors {
-    text-align: left;
-    display: inline-block;
-    padding-bottom: 10px;
-}
 
-#textbutton {
-    margin: 15px;
-    padding: 5px 10px 5px 10px;
-    font-family: inherit;
-}
-#body {
-    font-family: Verdana;
-    margin:20px; 
-    align-content: center;
-    background-color: darkgrey;
-}
-
-#fontblock {
-    font-family: inherit;
-    width: 40%;
+#navbar a {
     float: left;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+    text-decoration: none;
+    
 }
 
-#textbox {
-    font-family: inherit;
-    resize: none;
+#navbar a:hover {
+    transition-duration: .4s;
+    transition-delay: .1s;
+    background-color: #0c6291;
+    
 }
 
-#hiddentext {
-    font-family: inherit;
-    display: none;
-    resize: none;
+#text {
+    color: #f2f2f2;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
+
+#main {
+    display: flex;
+    height: 100%;
+
+}
+
+#leftside{
+    background-color:#465362;
+    color: wheat;
+    padding-top: 48px;
+    position: absolute;
+    left: 0;
+    width: 75%;
+    height: 150%;
+}
+
+#rightside {
+    border-left: 5px solid #011936;
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 25%;
+    height: 150%;
+    background-color: #cfccd6;
+}
+
+.interior {
+    padding: 0px 15px 10px 15px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+.center {
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 15px;
+    background-color: #D33F49;
+}
+
 
 
 			
