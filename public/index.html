@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="custom.css">
+	<script type="text/javascript" src="dynamic.js"></script>
+	<meta charset="utf-8">
+  	<title>SWEN-344 Web Assignment 1</title>
+  	<meta name="description" content="First web assignment">
+  	<meta name="author" content="Matt Hills">
+  
+</head>
+<body id="body">
+<h1 class="heading">SWEN-344 Web Assignment 1</h1>
+<div class="center" id="main">
+
+	<div id="fontandselect">
+		<div id="fontblock">
+			<label for="fonts">Fonts</label><br>
+			<select name="fonts" id="fonts" onchange="changeFont (this)">
+				<option value="Verdana">Verdana</option>
+				<option value="Arial">Arial</option>
+				<option value="Times New Roman">Times</option>
+				<option value="Didact Gothic">Gothic</option>
+				<option value="Impact">Impact</option>
+			</select>
+		</div>
+		
+		<div id="colors">
+			<input type="radio" id="color1" name="color" value="black">
+			<label for="color1">Black</label><br>
+			<input type="radio" id="color2" name="color" value="red">
+			<label for="color2">Red</label><br>
+			<input type="radio" id="color3" name="color" value="green">
+			<label for="color3">Green</label><br>
+			<input type="radio" id="color4" name="color" value="blue">
+			<label for="color4">Blue</label><br>
+			<input type="radio" id="color5" name="color" value="purple">
+			<label for="color">Purple</label><br>
+		</div>
+	</div>
+		
+	
+	<div class="flex-centered">
+		<textarea id="textbox" style="resize: none;" rows="12" cols="60">
+    Once upon a midnight dreary, while I pondered, weak and weary, 
+    Over many a quaint and curious volume of forgotten lore — 
+    While I nodded, nearly napping, suddenly there came a tapping,
+    As of some one gently rapping, rapping at my chamber door.
+    "'Tis some visitor," I muttered, "tapping at my chamber door   
+    — Only this and nothing more."
+		</textarea>
+		
+
+	<button id="textbutton" onclick="editBox()" value="more">More...</button>
+	<textarea id="hiddentext" rows="12" cols="60">
+    Ah, distinctly I remember it was in the bleak December
+    And each separate dying ember wrought its ghost upon the floor.
+    Eagerly I wished the morrow;—vainly I had sought to borrow 
+    From my books surcease of sorrow—sorrow for the lost Lenore —
+    For the rare and radiant maiden whom the angels name Lenore —
+    Nameless here for evermore.</textarea><br>
+
+	</div>
+		
+		
+</div>
+</body>
+</html>

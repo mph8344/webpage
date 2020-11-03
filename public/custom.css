@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+.heading {
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+.center {
+    margin:auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#colors {
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#textbutton {
+    margin: 15px;
+    padding: 5px 10px 5px 10px;
+    font-family: inherit;
+}
+#body {
+    font-family: Verdana;
+    margin:20px; 
+    align-content: center;
+    background-color: darkgrey;
+}
+
+#fontblock {
+    font-family: inherit;
+    width: 40%;
+    float: left;
+}
+
+#textbox {
+    font-family: inherit;
+    resize: none;
+}
+
+#hiddentext {
+    font-family: inherit;
+    display: none;
+    resize: none;
+}
+
+
+			
