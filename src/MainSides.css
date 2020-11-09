@@ -1,9 +1,9 @@
 #leftside{
     background-color:#465362;
     color: wheat;
-    padding-top: 48px;
     height: 150%;
-    width: 90%;
+    width: 88%;
+    border-radius: 5px;
     
 }
 
@@ -13,8 +13,13 @@
     width: 10%;
     z-index: 1;
     background-color: #cfccd6;
+    border-radius: 5px;
+}
+
+.interior.right {
+    opacity: 0;
 }
 
 .interior {
-    padding: 0px 15px 10px 15px;
+    padding: 15px 0px 15px 0px;
 }
