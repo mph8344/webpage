@@ -1,11 +1,31 @@
 .App {
-  text-align: center;
-  width: 90%;
-  margin: auto;
-  margin-top: 20px;
+  
+  .imageTop {
+    position: absolute;
+    z-index: -2;  
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: -1;
+    filter: blur(4px);
+    -webkit-filter: blur(8px);
+      
+  }
+
+
+
+  .main {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
 }
 
-.main {
+
+
+.central {
 
   display: flex;
 

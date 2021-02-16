@@ -1,10 +1,10 @@
 import React from 'react';
-import './MainSides.css';
+import './MainSides.scss';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import $ from 'jquery';
 import { findDOMNode } from 'react-dom';
-import logo from './menu.svg';
+import logo from '../menu.svg'
 
 function handleToggle(sides) {
     
